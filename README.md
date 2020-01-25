@@ -22,16 +22,29 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Why would you use class component over function components (removing hooks from the question)?
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+- [x] Why would you use class component over function components (removing hooks from the question)?
+
+The class component is the only component that handles state. Using the constructor with super can also allow you to pass props.
+
+- [x] Name three lifecycle methods and their purposes.
+
+1. Mounting - sets the component to life in the DOM. This is the first stack and creations of all the goodness that was coded for the component.
+2. Render/update - this is where state is manipulated and parts that need work, get it, and shown.
+3. Unmount - This happens once and once it happens there is no coming back. ComponentWillUnmount is used for clean up before death
+
+- [x] What is the purpose of a custom hook?
+
+Custom hooks can incorporate functions and state to cover several things at once. Like one hook to handel many inputs.
+
+- [X] Why is it important to test our apps?
+
+It is important to test apps to ensure the integrity of the work, the stability of the team, and protect your personal sanity.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add TL as collaborator on Github.
 - [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
 - [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
