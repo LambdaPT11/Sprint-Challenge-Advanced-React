@@ -1,5 +1,6 @@
 import React from 'react';
 import Player from './components/Player.component';
+
 import './App.css';
 
 function App() {
