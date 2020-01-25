@@ -13,7 +13,37 @@
   color: white;
 }
 
+h1 {
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+
+h3 {
+  color: antiquewhite;
+  padding: 5px;
+  margin: 0;
+}
+
+span {
+  color: wheat;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid olivedrab;
+  border-radius: 3px;
+}
+
+.card-base {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em 5em;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: darkolivegreen;
+}
+
 .App-link {
   color: #61dafb;
 }
-
