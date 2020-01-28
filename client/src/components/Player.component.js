@@ -30,6 +30,7 @@ class Player extends React.Component {
                     return(
                         <div>
                             <PlayerCard 
+                                key={Date.now()}
                                 img={play.img}
                                 name={play.name}
                                 country={play.country}

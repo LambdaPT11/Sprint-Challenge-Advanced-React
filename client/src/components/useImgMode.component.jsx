@@ -6,11 +6,14 @@ import useLocalStorage from './useLocalStorage.component.jsx';
 
     useEffect(() => {
         
-        const image = document.getElementById('pic');
-        console.log(image);
-        // imgMode ? image.classList.add('.img-mode') : image.classList.remove('.img-mode');
+        const image = document.getElementsByName('pic');
+        image.forEach(pic => {
+                imgMode ? pic.classList.add('img-mode') : pic.classList.remove('img-mode')
+        })
+        // console.log(image);
+        
 
-    }, [imgMode]);
+    });
     
     return [imgMode, setImgMode];
 }
