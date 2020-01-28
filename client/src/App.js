@@ -1,11 +1,13 @@
 import React from 'react';
 import Player from './components/Player.component';
+import Navbar from './components/Navbar.component';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+    <Navbar />
       <header className="App-header">
         <Player />
       </header>
