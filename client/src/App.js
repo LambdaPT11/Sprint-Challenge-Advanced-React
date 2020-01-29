@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div data-testid="App" className="App">
     <Navbar />
       <header className="App-header">
         <Player />

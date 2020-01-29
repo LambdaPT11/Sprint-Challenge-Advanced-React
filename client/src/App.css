@@ -17,7 +17,8 @@
   align-items: center;
   border-bottom: 1px solid rgb(221, 221, 221);
   justify-content: space-between;
-  background-color: darkgrey;
+  background-color: olive;
+  color: white;
   display: flex;
   height: 70px;
   padding: 0 3%;
@@ -27,7 +28,7 @@
 }
 
 .image-mode__toggle {
-  background: papayawhip;
+  background: whitesmoke;
   border-radius: 50px;
   border: 1px solid black;
   height: 20px;
@@ -36,7 +37,7 @@
 }
 
 .toggle {
-  background: #f68819;
+  background: #282c34;
   border-radius: 50px;
   height: 18px;
   left: 0;
@@ -57,6 +58,12 @@ h1 {
   color: white;
   padding: 5px;
   margin: 0;
+}
+
+h2 {
+  justify-content: left;
+  text-align: left;
+  margin: 2px;
 }
 
 h3 {
@@ -96,6 +103,7 @@ img {
 .card-info {
   display: flex;
   flex-direction: column;
+  justify-content: left;
   align-items: flex-start;
   width: 75%;
   margin-left: 2em;
